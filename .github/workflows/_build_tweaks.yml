@@ -111,7 +111,7 @@ on:
 jobs:
   build-tweaks:
     name: Build Tweaks
-    runs-on: macos-latest
+    runs-on: [self-hosted, macOS]
 
     steps:
       - name: Check for conflicting inputs
